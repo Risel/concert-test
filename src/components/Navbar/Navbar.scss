@@ -1,0 +1,28 @@
+.navbar {
+  font-family: "Alegreya Sans SC";
+
+  background: #101010;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+
+  &__name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
